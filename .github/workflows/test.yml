@@ -5,9 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      # set up node version 14
       - uses: actions/setup-node@v2
-        name: Set up Node.js 14.x
         with:
           node-version: 14
         run: node -v
